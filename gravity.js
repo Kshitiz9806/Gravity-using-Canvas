@@ -72,24 +72,3 @@ function animate()
 }
 
 animate();
-
-window.addEventListener('resize', function(){
-	alert("Page needs to be refreshed");
-	canvas.width = window.innerWidth;
-	canvas.height = window.innerHeight;
-	reload();
-})
-
-/*	c.beginPath();
-	c.arc(x, y, 30, 0, Math.PI*2, false);
-	c.stroke();
-	c.fill();
-	y += v;
-	if(y > innerHeight - 20)
-	{
-		v = -v;
-	}
-	else
-	{
-		v += g;
-	}	*/
